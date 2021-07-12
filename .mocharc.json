@@ -1,0 +1,15 @@
+{
+  "extension": [
+    "js"
+  ],
+  "package": "../package.json",
+  "reporter": "mochawesome",
+  "timeout": 120000,
+  "reporter-option": [
+    "inlineAssets=true",
+    "reportFilename=index"
+  ],
+  "file": [
+    "src/configuration/setup.js"
+  ]
+}
